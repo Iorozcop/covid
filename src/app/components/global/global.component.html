@@ -1,0 +1,27 @@
+
+<div class="card-columns">
+    <div class="card"> 
+      <div class="card-header"> 
+        <h4>Global</h4>
+      </div>
+      <div style="padding: 20px;">
+        <h5>Información:</h5>
+        <p class="card-text">Confirmados: {{globalData.NewConfirmed}} / {{globalData.TotalConfirmed}}</p>
+        <p class="card-text">Muertos: {{globalData.NewDeaths}} / {{globalData.TotalDeaths}}</p>
+        <p class="card-text">Recuperados: {{globalData.NewRecovered}} / {{globalData.TotalRecovered}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="card-columns">
+    <div class="card"> 
+      <div class="card-header"> 
+        <h4>{{spainData[0].Country}}</h4>
+      </div>
+      <div style="padding: 20px;">
+        <h5>Información:</h5>
+        <p class="card-text">Confirmados: {{spainData[0].NewConfirmed}} / {{spainData[0].TotalConfirmed}}</p>
+        <p class="card-text">Muertos: {{spainData[0].NewDeaths}} / {{spainData[0].TotalDeaths}}</p>
+        <p class="card-text">Recuperados: {{spainData[0].NewRecovered}} / {{spainData[0].TotalRecovered}}</p>
+      </div>
+    </div>
+  </div>
